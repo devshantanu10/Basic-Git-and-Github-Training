@@ -164,6 +164,7 @@ One straight line, no merge commit.
 
 - **Good:** clean, linear log — easy to read and to `git bisect`.
 - **Cost:** it rewrites commits. Fine for commits that only live on your machine; the golden rule above still applies — **never rebase commits you've already pushed and shared**, because everyone else still has the old hashes.
+- **If a conflict is too messy:** run `git rebase --abort` to return to the state from before the rebase.
 
 #### Side by side
 
