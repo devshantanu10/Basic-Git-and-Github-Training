@@ -178,5 +178,7 @@ One straight line, no merge commit.
 
 **Rule of thumb:** rebase your own local branch to tidy it up *before* sharing it; merge once it's shared.
 
+
+
 ---
 Next: [Lab 6 — Tags & Releases](Lab6-Tags-Releases.md)
